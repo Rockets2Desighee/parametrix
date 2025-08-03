@@ -77,8 +77,8 @@ class ERA5SuperResEngine:
             dst.write(out_img.astype(np.float32), 1)
 
 # USAGE
-# engine = ERA5SuperResEngine(model_path="models/ddpm_era5.pt")
-# engine.upscale("data/era5_rain_2022.tif", "superres/era5_rain_2022.tif")
+engine = ERA5SuperResEngine(model_path="models/ddpm_era5.pt")
+engine.upscale("data/era5_rain_2022.tif", "superres/era5_rain_2022.tif")
 
 # Note: The above code is a simplified version and may require additional error handling and optimizations for production use.
 
