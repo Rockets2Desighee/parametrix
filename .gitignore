@@ -1,0 +1,51 @@
+# === Python + Virtual Env ===
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# === Testing & Coverage ===
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# === Notebooks and Logs ===
+*.ipynb_checkpoints
+*.log
+
+# === Data and Models ===
+*.h5
+*.hdf5
+*.nc
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.npz
+*.npy
+*.onnx
+
+# === Output Bundles ===
+*.pdf
+*.zip
+*.tar.gz
+*.json
+outputs/
+bundles/
+artifacts/
+
+# === Pre-commit ===
+.pre-commit-config.yaml~

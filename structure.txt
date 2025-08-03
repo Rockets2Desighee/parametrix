@@ -1,0 +1,155 @@
+.
+├── .github
+├── .gitignore
+├── docs
+│   └── __init__.py
+├── env
+│   └── pinned_requirements.txt
+├── examples
+│   └── __init__.py
+├── LICENSE
+├── notebooks
+│   └── __init__.py
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── scripts
+│   └── __init__.py
+├── src
+│   └── parametrix
+│       ├── __init__.py
+│       ├── api
+│       │   ├── __init__.py
+│       │   └── api_server.py
+│       ├── cli
+│       │   ├── __init__.py
+│       │   └── cli_runner.py
+│       ├── config
+│       ├── core
+│       │   ├── __init__.py
+│       │   ├── trigger_registry.py
+│       │   └── trigger_runner.py
+│       ├── domains
+│       │   ├── __init.py__
+│       │   ├── agri_risk
+│       │   │   ├── __init__.py
+│       │   │   ├── harvest_disruption.py
+│       │   │   ├── pests_trigger.py
+│       │   │   └── planting_delay.py
+│       │   ├── climate_extremes
+│       │   │   ├── __init__.py
+│       │   │   ├── compound_event_trigger.py
+│       │   │   ├── flash_drought.py
+│       │   │   └── frost_trigger.py
+│       │   ├── dao_triggers
+│       │   │   ├── __init__.py
+│       │   │   ├── disbursement_delay_fallback.py
+│       │   │   ├── macro_fiscal_trigger.py
+│       │   │   └── pricing_recalibration_engine.py
+│       │   └── infrastructure
+│       │       ├── __init__.py
+│       │       ├── communication_risk_proxy.py
+│       │       ├── grid_overload_trigger.py
+│       │       └── road_accessibility_score.py
+│       ├── emitters
+│       │   ├── __init__.py
+│       │   ├── chainlink_oracle_uploader.py
+│       │   ├── mobile_ui_bundle_exporter.py
+│       │   ├── offline_bundle_exporter.py
+│       │   ├── oracle_json_generator.py
+│       │   ├── payout_summary_renderer.py
+│       │   ├── pdf_bundle_generator.py
+│       │   ├── regional_language_renderer.py
+│       │   ├── smart_contract_emitter.py
+│       │   └── trigger_receipt_hash_generator.py
+│       ├── ingestion
+│       │   ├── __init__.py
+│       │   ├── elevation_resampler.py
+│       │   ├── era5_weather_fetcher.py
+│       │   ├── gfs_forecast_ingestor.py
+│       │   ├── sentinel_ndvi_downloader.py
+│       │   └── soil_data_loader.py
+│       ├── models
+│       │   ├── __init__.py
+│       │   ├── bayesian_uncertainty_model.py
+│       │   ├── coffee_yield_predictor.py
+│       │   ├── crop_yield_regressor.py
+│       │   ├── ddpm_era5_upsampler.py
+│       │   ├── ensemble_selector.py
+│       │   ├── gpp_proxy_estimator.py
+│       │   ├── lstm_ndvi_predictor.py
+│       │   ├── multi_model_blender.py
+│       │   ├── ndvi_gap_filler.py
+│       │   ├── spatiotemporal_model_tuner.py
+│       │   ├── timeseries_fusion_model.py
+│       │   ├── transformer_forecaster.py
+│       │   ├── value_at_risk_simulator.py
+│       │   └── whatif_scenario_runner.py
+│       ├── orchestrator
+│       │   └── __init__.py
+│       ├── preprocessing
+│       │   ├── __init__.py
+│       │   ├── cloud_masker.py
+│       │   ├── ndvi_normalizer.py
+│       │   └── static_feature_generator.py
+│       ├── trigger_pipeline_orchestrator.py
+│       ├── triggers
+│       │   ├── __init__.py
+│       │   ├── contract_auto_calibrator.py
+│       │   ├── contract_logic_evaluator.py
+│       │   ├── fertilizer_timing_trigger.py
+│       │   ├── forecast_window_adjuster.py
+│       │   ├── irrigation_trigger_scanner.py
+│       │   ├── monte_carlo_trigger_simulator.py
+│       │   ├── multi-trigger_resolver.py
+│       │   ├── region_trigger_fusion.py
+│       │   ├── subsidy_burn_optimizer.py
+│       │   ├── threshold_trigger_engine.py
+│       │   └── trigger_validation_scanner.py
+│       ├── utils
+│       │   ├── __init__.py
+│       │   ├── data_chunker.py
+│       │   ├── demo_config_loader.py
+│       │   ├── farm_id_mapper.py
+│       │   ├── geojson_grid_mapper.py
+│       │   ├── language_translation_util.py
+│       │   ├── mobile_sms_generator.py
+│       │   ├── plotting_utils.py
+│       │   ├── qr_payload_encoder.py
+│       │   ├── tiler.py
+│       │   ├── whatsapp_audio_summary.py
+│       │   └── yaml_to_contract_json.py
+│       └── validators
+│           ├── __init__.py
+│           ├── conflict_trigger_resolver.py
+│           ├── dispute_simulator.py
+│           ├── ground_truth_validator.py
+│           ├── model_benchmark_suite.py
+│           ├── satellite_quality_filter.py
+│           ├── sensor_interpolator.py
+│           ├── spatial_bias_audit.py
+│           ├── trigger_audit_logger.py
+│           └── verifiability_index_calculator.py
+├── structure.txt
+└── tests
+    ├── __init__.py
+    ├── domains
+    │   └── __init__.py
+    ├── emitters
+    │   └── __init__.py
+    ├── ingestion
+    │   └── __init__.py
+    ├── models
+    │   └── __init__.py
+    ├── orchestrator
+    │   └── __init__.py
+    ├── preprocessing
+    │   └── __init__.py
+    ├── triggers
+    │   └── __init__.py
+    ├── utils
+    │   └── __init__.py
+    └── validators
+        └── __init__.py
+
+38 directories, 115 files

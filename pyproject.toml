@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["parametrix"]
+package-dir = {"" = "src"}
+
+[project]
+name = "parametrix"
+version = "0.1.0"
+description = "Local-first parametric trigger engine for satellite-based agri & climate risk."
+requires-python = ">=3.9"
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+strict = true
