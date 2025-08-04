@@ -10,7 +10,7 @@ pip install -r env/requirements.txt
 
 # Parametrix System Pipeline: Full Logic Flow
 
-This document describes the full data and computation flow of the Parametrix system, from ingestion to final outputs.
+This part describes the full data and computation flow of the Parametrix system, from ingestion to final outputs.
 
 ---
 
